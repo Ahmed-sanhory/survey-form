@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form>
+        <div class="main-section">
+            <h3>Name</h3>
+            <textarea placeholder="enter your name"></textarea>
+            <h3>Email</h3>
+            <textarea placeholder="enter your mail"></textarea>
+            <h3>Age</h3>
+            <textarea placeholder="enter your age"></textarea>
+            <h3>Wich option best describe you?</h3>
+            
+            <select>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="graduated">Graduated</option>
+            </select>
+            <br><br>
+
+            
+            <fieldset>
+                <legend>Would you recommend me for any job?</legend>
+                <input type="radio" name="job" id="yes" value="yes" checked/>
+                <label for="yes">yes</label>
+                <input type="radio" name="job" value="no"/>
+                <label for="no">no</label>
+                <input type="radio" name="job" value="maybe"/>
+                <label for="maybe">maybe</label>
+            </fieldset>
+            
+            <h3>Languages and framework Known [check all apply]</h3>
+            
+            <fieldset>
+                <input type="checkbox" value="c" id="c"/>
+                <label for="c">c</label>
+                <input type="checkbox" value="c++"/>
+                <label for="c++">c++</label>
+                <input type="checkbox" value="javascript"/>
+                <label for="javascript">javascript</label>
+            </fieldset>
+        </div>
+    </form>
+    
+</body>
+</html>

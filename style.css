@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+
+
+h1{
+    text-align: center;
+}
+
+form{
+    background-color: aquamarine;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    padding: 10px;
+}
